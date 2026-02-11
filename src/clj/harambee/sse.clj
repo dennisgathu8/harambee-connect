@@ -55,14 +55,13 @@
 ;; ---------------------------------------------------------------------------
 
 (defn match-events-handler
-  "Ring async handler for SSE match events stream.
-   Filters events for a specific match-id if provided."
-  [request respond _raise]
+  "Ring synchronous handler for SSE match events stream.
+   Returns a response with a PipedInputStream body."
+  [request]
   (let [match-id (get-in request [:path-params :id])
         sub-ch (subscribe!)]
     (log/info "SSE client connected for match:" (or match-id "all"))
-    (respond
-     {:status 200
+    {:status 200
       :headers {"Content-Type" "text/event-stream"
                 "Cache-Control" "no-cache"
                 "Connection" "keep-alive"
@@ -98,4 +97,4 @@
                         true
                         (catch Exception _ false))
                   (recur)))
-              in)})))
+              in})))
