@@ -1,0 +1,155 @@
+;; =============================================
+;; FKF Premier League — Sample Fixtures 2024/25
+;; =============================================
+
+[;; === Matchday 1 ===
+ {:xt/id :match/m001
+  :match/home :club/gor-mahia
+  :match/away :club/afc-leopards
+  :match/date "2025-02-15T15:00:00+03:00"
+  :match/venue "Nyayo National Stadium"
+  :match/status :live
+  :match/minute 67
+  :match/home-score 2
+  :match/away-score 1
+  :match/matchday 1
+  :match/competition "FKF Premier League"
+  :match/attendance 35000
+  :match/referee "Peter Waweru"
+  :match/events [{:event/type :goal :event/minute 12 :event/player "John Avire" :event/team :club/gor-mahia :event/detail "Right foot, penalty"}
+                 {:event/type :goal :event/minute 34 :event/player "Elvis Rupia" :event/team :club/afc-leopards :event/detail "Header, corner kick"}
+                 {:event/type :yellow-card :event/minute 45 :event/player "Samson Otieno" :event/team :club/afc-leopards}
+                 {:event/type :goal :event/minute 58 :event/player "Kenneth Muguna" :event/team :club/gor-mahia :event/detail "Left foot, free kick"}
+                 {:event/type :substitution :event/minute 62 :event/player-in "Benson Omalla" :event/player-out "John Avire" :event/team :club/gor-mahia}]
+  :match/lineups {:home [{:player/name "Gad Mathews" :player/number 1 :player/position "GK"}
+                         {:player/name "Philemon Otieno" :player/number 2 :player/position "RB"}
+                         {:player/name "Joash Onyango" :player/number 5 :player/position "CB"}
+                         {:player/name "Michael Apudo" :player/number 4 :player/position "CB"}
+                         {:player/name "Geoffrey Ochieng" :player/number 3 :player/position "LB"}
+                         {:player/name "Kenneth Muguna" :player/number 10 :player/position "CM"}
+                         {:player/name "Ernest Wendo" :player/number 6 :player/position "CDM"}
+                         {:player/name "Samuel Onyango" :player/number 8 :player/position "CM"}
+                         {:player/name "Clifton Miheso" :player/number 7 :player/position "RW"}
+                         {:player/name "John Avire" :player/number 9 :player/position "ST"}
+                         {:player/name "Nicholas Kipkirui" :player/number 11 :player/position "LW"}]
+                  :away [{:player/name "Benjamin Ochan" :player/number 1 :player/position "GK"}
+                         {:player/name "Collins Shichenje" :player/number 2 :player/position "RB"}
+                         {:player/name "Robinson Kamura" :player/number 5 :player/position "CB"}
+                         {:player/name "Isaac Kipyegon" :player/number 4 :player/position "CB"}
+                         {:player/name "Clyde Senaji" :player/number 3 :player/position "LB"}
+                         {:player/name "Austin Odhiambo" :player/number 10 :player/position "CM"}
+                         {:player/name "Samson Otieno" :player/number 6 :player/position "CDM"}
+                         {:player/name "Peter Thiong'o" :player/number 8 :player/position "CM"}
+                         {:player/name "Paul Were" :player/number 7 :player/position "RW"}
+                         {:player/name "Elvis Rupia" :player/number 9 :player/position "ST"}
+                         {:player/name "Hansel Ochieng" :player/number 11 :player/position "LW"}]}}
+
+ {:xt/id :match/m002
+  :match/home :club/tusker
+  :match/away :club/bandari
+  :match/date "2025-02-15T13:00:00+03:00"
+  :match/venue "Ruaraka Stadium"
+  :match/status :completed
+  :match/minute 90
+  :match/home-score 1
+  :match/away-score 1
+  :match/matchday 1
+  :match/competition "FKF Premier League"
+  :match/attendance 8500
+  :match/referee "David Okello"
+  :match/events [{:event/type :goal :event/minute 23 :event/player "Ibrahim Joshua" :event/team :club/tusker :event/detail "Right foot, open play"}
+                 {:event/type :yellow-card :event/minute 41 :event/player "Felly Mulumba" :event/team :club/bandari}
+                 {:event/type :goal :event/minute 76 :event/player "William Wadri" :event/team :club/bandari :event/detail "Header, cross"}
+                 {:event/type :red-card :event/minute 85 :event/player "Jackson Macharia" :event/team :club/tusker}]
+  :match/lineups {:home [] :away []}}
+
+ {:xt/id :match/m003
+  :match/home :club/kakamega-homeboyz
+  :match/away :club/kariobangi-sharks
+  :match/date "2025-02-16T15:00:00+03:00"
+  :match/venue "Bukhungu Stadium"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 1
+  :match/competition "FKF Premier League"
+  :match/referee "Mary Njoroge"
+  :match/events []
+  :match/lineups {:home [] :away []}}
+
+ {:xt/id :match/m004
+  :match/home :club/ulinzi-stars
+  :match/away :club/kenya-police
+  :match/date "2025-02-16T13:00:00+03:00"
+  :match/venue "Afraha Stadium"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 1
+  :match/competition "FKF Premier League"
+  :match/referee "Samuel Maina"
+  :match/events []
+  :match/lineups {:home [] :away []}}
+
+ {:xt/id :match/m005
+  :match/home :club/sofapaka
+  :match/away :club/mathare-united
+  :match/date "2025-02-17T15:00:00+03:00"
+  :match/venue "Nyayo National Stadium"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 1
+  :match/competition "FKF Premier League"
+  :match/referee "John Ogolla"
+  :match/events []
+  :match/lineups {:home [] :away []}}
+
+ ;; === Matchday 2 ===
+ {:xt/id :match/m006
+  :match/home :club/afc-leopards
+  :match/away :club/tusker
+  :match/date "2025-02-22T15:00:00+03:00"
+  :match/venue "Nyayo National Stadium"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 2
+  :match/competition "FKF Premier League"
+  :match/referee "Grace Wanjiku"
+  :match/events []
+  :match/lineups {:home [] :away []}}
+
+ {:xt/id :match/m007
+  :match/home :club/bandari
+  :match/away :club/gor-mahia
+  :match/date "2025-02-22T13:00:00+03:00"
+  :match/venue "Mbaraki Sports Club"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 2
+  :match/competition "FKF Premier League"
+  :match/referee "Patrick Mutai"
+  :match/events []
+  :match/lineups {:home [] :away []}}
+
+ {:xt/id :match/m008
+  :match/home :club/nairobi-city-stars
+  :match/away :club/wazito
+  :match/date "2025-02-23T15:00:00+03:00"
+  :match/venue "Nyayo National Stadium"
+  :match/status :upcoming
+  :match/minute 0
+  :match/home-score 0
+  :match/away-score 0
+  :match/matchday 2
+  :match/competition "FKF Premier League"
+  :match/referee "Moses Opiyo"
+  :match/events []
+  :match/lineups {:home [] :away []}}]

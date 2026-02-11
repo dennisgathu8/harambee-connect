@@ -1,0 +1,273 @@
+[;; =============================================
+ ;; FKF Premier League Clubs — 2024/2025 Season
+ ;; =============================================
+
+ {:xt/id :club/gor-mahia
+  :club/name "Gor Mahia FC"
+  :club/name-sw "Gor Mahia FC"
+  :club/short-name "GOR"
+  :club/city "Nairobi"
+  :club/stadium "Nyayo National Stadium"
+  :club/founded 1968
+  :club/colors ["green" "white"]
+  :club/badge-emoji "🟢"
+  :club/nickname "K'Ogalo"
+  :club/nickname-sw "K'Ogalo"
+  :club/rivalry [:club/afc-leopards]
+  :club/description "The most successful club in Kenyan football history, with a passionate fanbase across East Africa."
+  :club/description-sw "Klabu yenye mafanikio zaidi katika historia ya soka nchini Kenya, yenye mashabiki wengi kote Afrika Mashariki."}
+
+ {:xt/id :club/afc-leopards
+  :club/name "AFC Leopards"
+  :club/name-sw "AFC Leopards"
+  :club/short-name "AFC"
+  :club/city "Nairobi"
+  :club/stadium "Nyayo National Stadium"
+  :club/founded 1964
+  :club/colors ["blue" "white"]
+  :club/badge-emoji "🔵"
+  :club/nickname "Ingwe"
+  :club/nickname-sw "Ingwe"
+  :club/rivalry [:club/gor-mahia]
+  :club/description "One of Kenya's oldest and most popular clubs, fierce rivals of Gor Mahia in the Mashemeji Derby."
+  :club/description-sw "Moja ya klabu kongwe na maarufu zaidi nchini Kenya, wapinzani wakubwa wa Gor Mahia katika Mashemeji Derby."}
+
+ {:xt/id :club/tusker
+  :club/name "Tusker FC"
+  :club/name-sw "Tusker FC"
+  :club/short-name "TUS"
+  :club/city "Nairobi"
+  :club/stadium "Ruaraka Stadium"
+  :club/founded 1970
+  :club/colors ["yellow" "black"]
+  :club/badge-emoji "🟡"
+  :club/nickname "The Brewers"
+  :club/nickname-sw "Wapishi"
+  :club/rivalry []
+  :club/description "Backed by East African Breweries, Tusker FC is a consistent title contender in the FKF Premier League."
+  :club/description-sw "Ikisaidiwa na East African Breweries, Tusker FC ni mpinzani wa kila mara wa ubingwa katika FKF Premier League."}
+
+ {:xt/id :club/bandari
+  :club/name "Bandari FC"
+  :club/name-sw "Bandari FC"
+  :club/short-name "BAN"
+  :club/city "Mombasa"
+  :club/stadium "Mbaraki Sports Club"
+  :club/founded 2004
+  :club/colors ["red" "black"]
+  :club/badge-emoji "🔴"
+  :club/nickname "The Dockers"
+  :club/nickname-sw "Mabaharia"
+  :club/rivalry [:club/mombasa-elite]
+  :club/description "Mombasa's pride, representing the coastal city with passion and flair."
+  :club/description-sw "Kiburi cha Mombasa, ikiwakilisha jiji la pwani kwa shauku na ustadi."}
+
+ {:xt/id :club/kakamega-homeboyz
+  :club/name "Kakamega Homeboyz"
+  :club/name-sw "Kakamega Homeboyz"
+  :club/short-name "KAK"
+  :club/city "Kakamega"
+  :club/stadium "Bukhungu Stadium"
+  :club/founded 2005
+  :club/colors ["purple" "white"]
+  :club/badge-emoji "🟣"
+  :club/nickname "Homeboyz"
+  :club/nickname-sw "Homeboyz"
+  :club/rivalry []
+  :club/description "Western Kenya's finest, known for nurturing young talent and exciting football."
+  :club/description-sw "Bora zaidi ya Kenya Magharibi, wanajulikana kwa kulea vipaji vijana na soka ya kusisimua."}
+
+ {:xt/id :club/kariobangi-sharks
+  :club/name "Kariobangi Sharks"
+  :club/name-sw "Kariobangi Sharks"
+  :club/short-name "KSH"
+  :club/city "Nairobi"
+  :club/stadium "Kasarani Annex"
+  :club/founded 2000
+  :club/colors ["orange" "blue"]
+  :club/badge-emoji "🟠"
+  :club/nickname "The Sharks"
+  :club/nickname-sw "Papa"
+  :club/rivalry []
+  :club/description "Born from Nairobi's Kariobangi estate, a community club with a warrior spirit."
+  :club/description-sw "Ilizaliwa kutoka estate ya Kariobangi Nairobi, klabu ya jamii yenye moyo wa shujaa."}
+
+ {:xt/id :club/ulinzi-stars
+  :club/name "Ulinzi Stars"
+  :club/name-sw "Ulinzi Stars"
+  :club/short-name "ULI"
+  :club/city "Nakuru"
+  :club/stadium "Afraha Stadium"
+  :club/founded 1995
+  :club/colors ["green" "red"]
+  :club/badge-emoji "⭐"
+  :club/nickname "The Soldiers"
+  :club/nickname-sw "Askari"
+  :club/rivalry [:club/kenya-police]
+  :club/description "Kenya Defence Forces football club, disciplined and resilient."
+  :club/description-sw "Klabu ya soka ya Jeshi la Ulinzi la Kenya, yenye nidhamu na ustahimilivu."}
+
+ {:xt/id :club/kenya-police
+  :club/name "Kenya Police FC"
+  :club/name-sw "Kenya Police FC"
+  :club/short-name "KPL"
+  :club/city "Nairobi"
+  :club/stadium "Nyayo National Stadium"
+  :club/founded 1954
+  :club/colors ["navy" "white"]
+  :club/badge-emoji "🔷"
+  :club/nickname "The Law Enforcers"
+  :club/nickname-sw "Polisi"
+  :club/rivalry [:club/ulinzi-stars]
+  :club/description "Kenya's police force football team, with a long history in Kenyan football."
+  :club/description-sw "Timu ya soka ya jeshi la polisi la Kenya, yenye historia ndefu katika soka ya Kenya."}
+
+ {:xt/id :club/mathare-united
+  :club/name "Mathare United"
+  :club/name-sw "Mathare United"
+  :club/short-name "MAT"
+  :club/city "Nairobi"
+  :club/stadium "Kasarani Annex"
+  :club/founded 1994
+  :club/colors ["green" "yellow"]
+  :club/badge-emoji "💚"
+  :club/nickname "The Slum Boys"
+  :club/nickname-sw "Vijana wa Slum"
+  :club/rivalry []
+  :club/description "A club born from Nairobi's Mathare slums, symbolizing hope and perseverance."
+  :club/description-sw "Klabu iliyozaliwa kutoka mabanda ya Mathare Nairobi, ikiashiria matumaini na uvumilivu."}
+
+ {:xt/id :club/sofapaka
+  :club/name "Sofapaka FC"
+  :club/name-sw "Sofapaka FC"
+  :club/short-name "SOF"
+  :club/city "Nairobi"
+  :club/stadium "Nyayo National Stadium"
+  :club/founded 2004
+  :club/colors ["purple" "yellow"]
+  :club/badge-emoji "💜"
+  :club/nickname "Batoto ba Mungu"
+  :club/nickname-sw "Watoto wa Mungu"
+  :club/rivalry []
+  :club/description "Known as 'Children of God', Sofapaka has risen rapidly through Kenyan football."
+  :club/description-sw "Wanajulikana kama 'Watoto wa Mungu', Sofapaka wamepanda haraka katika soka ya Kenya."}
+
+ {:xt/id :club/wazito
+  :club/name "Wazito FC"
+  :club/name-sw "Wazito FC"
+  :club/short-name "WAZ"
+  :club/city "Nairobi"
+  :club/stadium "Utalii Grounds"
+  :club/founded 2009
+  :club/colors ["maroon" "gold"]
+  :club/badge-emoji "🟤"
+  :club/nickname "The Moneybags"
+  :club/nickname-sw "Wazito"
+  :club/rivalry []
+  :club/description "Ambitious Nairobi club backed by significant investment, the 'Heavy Ones' of Kenyan football."
+  :club/description-sw "Klabu ya Nairobi yenye tamaa kubwa ikisaidiwa na uwekezaji mkubwa, 'Wazito' wa soka ya Kenya."}
+
+ {:xt/id :club/nzoia-sugar
+  :club/name "Nzoia Sugar FC"
+  :club/name-sw "Nzoia Sugar FC"
+  :club/short-name "NZO"
+  :club/city "Bungoma"
+  :club/stadium "Sudi Stadium"
+  :club/founded 2003
+  :club/colors ["blue" "white"]
+  :club/badge-emoji "🏭"
+  :club/nickname "The Sugar Millers"
+  :club/nickname-sw "Wakoboa Sukari"
+  :club/rivalry []
+  :club/description "Backed by the Nzoia sugar company, representing Western Kenya with pride."
+  :club/description-sw "Ikisaidiwa na kampuni ya sukari ya Nzoia, ikiwakilisha Kenya Magharibi kwa kiburi."}
+
+ {:xt/id :club/posta-rangers
+  :club/name "Posta Rangers"
+  :club/name-sw "Posta Rangers"
+  :club/short-name "POS"
+  :club/city "Nairobi"
+  :club/stadium "Kasarani Annex"
+  :club/founded 1998
+  :club/colors ["orange" "white"]
+  :club/badge-emoji "📮"
+  :club/nickname "The Mailmen"
+  :club/nickname-sw "Wapeleka Barua"
+  :club/rivalry []
+  :club/description "Kenya's postal service football club, delivering results on the pitch."
+  :club/description-sw "Klabu ya soka ya huduma ya posta ya Kenya, ikileta matokeo uwanjani."}
+
+ {:xt/id :club/nairobi-city-stars
+  :club/name "Nairobi City Stars"
+  :club/name-sw "Nairobi City Stars"
+  :club/short-name "NCS"
+  :club/city "Nairobi"
+  :club/stadium "Nyayo National Stadium"
+  :club/founded 1989
+  :club/colors ["sky-blue" "white"]
+  :club/badge-emoji "🌟"
+  :club/nickname "Simba wa Nairobi"
+  :club/nickname-sw "Simba wa Nairobi"
+  :club/rivalry []
+  :club/description "Nairobi's city team, representing the capital with style and ambition."
+  :club/description-sw "Timu ya jiji la Nairobi, ikiwakilisha mji mkuu kwa mtindo na tamaa."}
+
+ {:xt/id :club/bidco-united
+  :club/name "Bidco United"
+  :club/name-sw "Bidco United"
+  :club/short-name "BID"
+  :club/city "Thika"
+  :club/stadium "Thika Stadium"
+  :club/founded 2010
+  :club/colors ["blue" "yellow"]
+  :club/badge-emoji "🏭"
+  :club/nickname "The Thika Boys"
+  :club/nickname-sw "Vijana wa Thika"
+  :club/rivalry []
+  :club/description "Corporate-backed club from Thika, pushing for top-tier status."
+  :club/description-sw "Klabu inayosaidiwa na kampuni kutoka Thika, ikisaka hadhi ya ngazi ya juu."}
+
+ {:xt/id :club/talanta
+  :club/name "Talanta FC"
+  :club/name-sw "Talanta FC"
+  :club/short-name "TAL"
+  :club/city "Nairobi"
+  :club/stadium "Kasarani Annex"
+  :club/founded 2019
+  :club/colors ["red" "white"]
+  :club/badge-emoji "🎯"
+  :club/nickname "Talanta"
+  :club/nickname-sw "Talanta"
+  :club/rivalry []
+  :club/description "A young and ambitious club making its mark in the FKF Premier League."
+  :club/description-sw "Klabu changa na yenye tamaa inayojitambulisha katika FKF Premier League."}
+
+ {:xt/id :club/murang-a-seal
+  :club/name "Murang'a SEAL"
+  :club/name-sw "Murang'a SEAL"
+  :club/short-name "MRS"
+  :club/city "Murang'a"
+  :club/stadium "Murang'a Stadium"
+  :club/founded 2015
+  :club/colors ["green" "black"]
+  :club/badge-emoji "🦭"
+  :club/nickname "SEAL"
+  :club/nickname-sw "SEAL"
+  :club/rivalry []
+  :club/description "Central Kenya's representative in the top flight, backed by the county government."
+  :club/description-sw "Mwakilishi wa Kenya ya Kati katika ngazi ya juu, akisaidiwa na serikali ya kaunti."}
+
+ {:xt/id :club/shabana
+  :club/name "Shabana FC"
+  :club/name-sw "Shabana FC"
+  :club/short-name "SHA"
+  :club/city "Kisii"
+  :club/stadium "Gusii Stadium"
+  :club/founded 1975
+  :club/colors ["red" "green"]
+  :club/badge-emoji "🔺"
+  :club/nickname "The Glamour Boys"
+  :club/nickname-sw "Vijana wa Staha"
+  :club/rivalry []
+  :club/description "Kisii's beloved club, one of the oldest in Kenya with a rich history."
+  :club/description-sw "Klabu inayopendwa ya Kisii, moja ya kongwe zaidi nchini Kenya yenye historia tajiri."}]

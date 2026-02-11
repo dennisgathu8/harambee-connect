@@ -1,0 +1,21 @@
+{:source-paths ["src/cljs"]
+
+ :dependencies [[reagent "1.2.0"]]
+
+ :maven {:repositories {"clojars" {:url "https://repo.clojars.org/"}}}
+
+ :dev-http {8280 "resources/public"}
+
+ :builds
+ {:app {:target :browser
+        :output-dir "resources/public/js/compiled"
+        :asset-path "/js/compiled"
+        :modules {:main {:init-fn harambee.app/init!}}
+        :devtools {:after-load harambee.app/mount-root!}
+        :compiler-options {:optimizations :simple
+                           :output-feature-set :es6
+                           :infer-externs :auto}
+        :release {:compiler-options {:optimizations :simple
+                                     :output-feature-set :es5
+                                     :pretty-print false
+                                     :pseudo-names false}}}}}

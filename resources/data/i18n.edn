@@ -1,0 +1,194 @@
+;; ============================================
+;; Harambee Stars Connect — Bilingual i18n
+;; Swahili (sw) is the default language
+;; ============================================
+
+{:sw
+ {;; Navigation
+  :nav/home "Nyumbani"
+  :nav/matches "Mechi"
+  :nav/clubs "Klabu"
+  :nav/standings "Msimamo"
+  :nav/tickets "Tiketi"
+  :nav/live "🔴 MOJA KWA MOJA"
+
+  ;; Home page
+  :home/title "Harambee Stars Connect"
+  :home/subtitle "Jukwaa la Soka la Kenya"
+  :home/live-matches "Mechi za Moja kwa Moja"
+  :home/upcoming "Mechi Zijazo"
+  :home/results "Matokeo"
+  :home/no-live "Hakuna mechi za moja kwa moja kwa sasa"
+  :home/welcome "Karibu kwenye jukwaa la soka la Kenya"
+  :home/hero-text "Kila mashabiki ameunganishwa. Kila mechi moja kwa moja. Kila wakati hauwezi kubadilishwa."
+
+  ;; Match
+  :match/live "MOJA KWA MOJA"
+  :match/completed "IMEKWISHA"
+  :match/upcoming "ITAKUJA"
+  :match/half-time "MAPUMZIKO"
+  :match/full-time "MWISHO"
+  :match/minute "Dakika"
+  :match/goal "Goli"
+  :match/yellow-card "Kadi ya Njano"
+  :match/red-card "Kadi ya Nyekundu"
+  :match/substitution "Ubadilishaji"
+  :match/lineup "Kikosi"
+  :match/events "Matukio"
+  :match/stats "Takwimu"
+  :match/venue "Uwanja"
+  :match/referee "Refa"
+  :match/attendance "Mahudhurio"
+  :match/matchday "Siku ya Mechi"
+  :match/kick-off "Wakati wa Kuanza"
+  :match/vs "dhidi ya"
+
+  ;; Club
+  :club/squad "Kikosi"
+  :club/fixtures "Ratiba"
+  :club/history "Historia"
+  :club/fans "Mashabiki"
+  :club/founded "Iliyoanzishwa"
+  :club/stadium "Uwanja"
+  :club/city "Jiji"
+  :club/nickname "Jina la Utani"
+  :club/rivals "Wapinzani"
+  :club/colors "Rangi"
+
+  ;; Standings
+  :standings/title "Msimamo wa Ligi"
+  :standings/position "Naf."
+  :standings/team "Timu"
+  :standings/played "M"
+  :standings/won "U"
+  :standings/drawn "S"
+  :standings/lost "H"
+  :standings/goals-for "GM"
+  :standings/goals-against "GD"
+  :standings/goal-diff "TG"
+  :standings/points "Pt"
+
+  ;; Tickets
+  :tickets/title "Nunua Tiketi"
+  :tickets/select-match "Chagua Mechi"
+  :tickets/select-tier "Chagua Daraja"
+  :tickets/vip "VIP"
+  :tickets/main "Tribuni Kuu"
+  :tickets/terrace "Bao"
+  :tickets/phone "Nambari ya Simu (M-Pesa)"
+  :tickets/buy "Nunua kwa M-Pesa"
+  :tickets/processing "Inaprocess..."
+  :tickets/success "Tiketi umenunuliwa! Angalia M-Pesa yako."
+  :tickets/error "Kuna tatizo. Jaribu tena."
+  :tickets/price "Bei"
+
+  ;; Offline
+  :offline/indicator "📡 Nje ya Mtandao"
+  :offline/syncing "Inasawazisha..."
+  :offline/synced "Imesawazishwa"
+  :offline/cached "Data iliyohifadhiwa"
+
+  ;; Common
+  :common/loading "Inapakia..."
+  :common/error "Hitilafu imetokea"
+  :common/retry "Jaribu Tena"
+  :common/back "Rudi"
+  :common/language "English"
+  :common/see-all "Ona Zote"
+  :common/search "Tafuta..."
+  :common/no-data "Hakuna data"}
+
+ :en
+ {;; Navigation
+  :nav/home "Home"
+  :nav/matches "Matches"
+  :nav/clubs "Clubs"
+  :nav/standings "Standings"
+  :nav/tickets "Tickets"
+  :nav/live "🔴 LIVE"
+
+  ;; Home page
+  :home/title "Harambee Stars Connect"
+  :home/subtitle "Kenya's Football Platform"
+  :home/live-matches "Live Matches"
+  :home/upcoming "Upcoming Matches"
+  :home/results "Results"
+  :home/no-live "No live matches right now"
+  :home/welcome "Welcome to Kenya's football platform"
+  :home/hero-text "Every fan connected. Every match live. Every moment immutable."
+
+  ;; Match
+  :match/live "LIVE"
+  :match/completed "FULL TIME"
+  :match/upcoming "UPCOMING"
+  :match/half-time "HALF TIME"
+  :match/full-time "FULL TIME"
+  :match/minute "Minute"
+  :match/goal "Goal"
+  :match/yellow-card "Yellow Card"
+  :match/red-card "Red Card"
+  :match/substitution "Substitution"
+  :match/lineup "Lineup"
+  :match/events "Events"
+  :match/stats "Statistics"
+  :match/venue "Venue"
+  :match/referee "Referee"
+  :match/attendance "Attendance"
+  :match/matchday "Matchday"
+  :match/kick-off "Kick-off"
+  :match/vs "vs"
+
+  ;; Club
+  :club/squad "Squad"
+  :club/fixtures "Fixtures"
+  :club/history "History"
+  :club/fans "Fans"
+  :club/founded "Founded"
+  :club/stadium "Stadium"
+  :club/city "City"
+  :club/nickname "Nickname"
+  :club/rivals "Rivals"
+  :club/colors "Colors"
+
+  ;; Standings
+  :standings/title "League Standings"
+  :standings/position "Pos"
+  :standings/team "Team"
+  :standings/played "P"
+  :standings/won "W"
+  :standings/drawn "D"
+  :standings/lost "L"
+  :standings/goals-for "GF"
+  :standings/goals-against "GA"
+  :standings/goal-diff "GD"
+  :standings/points "Pts"
+
+  ;; Tickets
+  :tickets/title "Buy Tickets"
+  :tickets/select-match "Select Match"
+  :tickets/select-tier "Select Tier"
+  :tickets/vip "VIP"
+  :tickets/main "Main Stand"
+  :tickets/terrace "Terrace"
+  :tickets/phone "Phone Number (M-Pesa)"
+  :tickets/buy "Pay with M-Pesa"
+  :tickets/processing "Processing..."
+  :tickets/success "Ticket purchased! Check your M-Pesa."
+  :tickets/error "Something went wrong. Please try again."
+  :tickets/price "Price"
+
+  ;; Offline
+  :offline/indicator "📡 Offline"
+  :offline/syncing "Syncing..."
+  :offline/synced "Synced"
+  :offline/cached "Cached data"
+
+  ;; Common
+  :common/loading "Loading..."
+  :common/error "An error occurred"
+  :common/retry "Retry"
+  :common/back "Back"
+  :common/language "Kiswahili"
+  :common/see-all "See All"
+  :common/search "Search..."
+  :common/no-data "No data available"}}

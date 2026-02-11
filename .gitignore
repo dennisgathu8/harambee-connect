@@ -1,0 +1,36 @@
+# Clojure / Leiningen
+target/
+classes/
+checkouts/
+.lein-*
+.nrepl-port
+*.jar
+*.class
+pom.xml
+pom.xml.asc
+*.log
+
+# ClojureScript / shadow-cljs
+.shadow-cljs/
+node_modules/
+resources/public/js/compiled/
+report.html
+out/
+.cljs_node_repl/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+.calva/
+.lsp/
+.cpcache/
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Env
+.env
+.env.local

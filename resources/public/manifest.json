@@ -1,0 +1,23 @@
+{
+    "name": "Harambee Stars Connect",
+    "short_name": "Harambee",
+    "description": "Jukwaa la Soka la Kenya — Kenya's Football Platform",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#0a0f1c",
+    "theme_color": "#0a0f1c",
+    "lang": "sw",
+    "categories": [
+        "sports",
+        "entertainment"
+    ],
+    "icons": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%230a0f1c'/><text x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='300'>⚽</text></svg>",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
